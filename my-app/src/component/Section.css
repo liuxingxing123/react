@@ -1,0 +1,113 @@
+#section{
+	  position: fixed;
+	  width: 3.75rem;
+	  overflow: auto;
+	  height: 5.75rem;
+	  top: 0.44rem;
+}
+#downTag{
+	height: 0.4rem;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	line-height: 0.4rem;
+}
+#downTag img{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -0.2rem;
+	display: block;
+}
+#upTag{
+	height: 0px;
+	line-height: 0.4rem;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+#upTag img{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -0.2rem;
+	display: block;
+}
+.custom-info{
+	    border-bottom: 1px solid #e8e8e8;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 15px;
+    color: #555;
+    font-size: 1.4rem;
+    position: relative;
+    display: block;
+    font-size: 13px;
+}
+.custom-info .info{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-right: 100px;
+    height: 100%;
+    position: relative;
+}
+ .custom-info .go{
+	  position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    color: #00b38a;
+    border-radius: 15px;
+}
+.custom-info .icon{
+	    width: 10px;
+    height: 20px;
+    background: url(/images/mobile/asset/common/img/icon.png) no-repeat -88px 7px;
+    background-size: 250px 250px;
+}
+.custom-info .text{
+	    font-style: normal;
+}
+#loadMore{
+	line-height: 0.46rem;
+	text-align: center;
+	color: #000;
+	font-size: 13px;
+	background: #E8E8E8;
+}
+#copyright{
+	    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    padding-bottom:0.4rem;
+    color: #333;
+    text-align: center;
+}
+#copyright p{
+	font-size: 12px;
+}
+#copyright a{
+	color: #333;
+	font-size: 13px;
+}
+#copyright .copyright-item{
+	height: 0.26rem;
+    line-height: 0.26rem;
+}
+#copyright  .copyright-item span.active{
+	color: #999;
+		font-size: 13px;
+}
+#copyright  .computer{
+	font-size: 13px;
+}

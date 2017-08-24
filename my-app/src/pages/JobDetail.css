@@ -1,0 +1,227 @@
+.clearfix:after{
+	content: "";
+	height: 0;
+	font-size: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+#jobDetail{
+	width: 3.75rem;
+	height:5.55rem;
+	top:0.44rem ;
+	font-size: 16px;
+	box-sizing: border-box;
+	position: fixed;
+	overflow: auto;
+}
+#detail .container{
+	position: fixed;
+    bottom: 0;
+    width: 90%;
+    height: 0.38rem;
+    margin-left: -45%;
+    margin-bottom: 0.2rem;
+    left: 50%;
+    z-index: 10;
+}
+#detail  .btn_green{
+	height: 0.4rem;
+	background-color: #00b38a;
+    color: #fff;
+    font-size: 0.16rem;
+}
+#detail .title{
+	    color: #333;
+    font-size: 0.18rem;
+    max-width: 70%;
+    overflow: hidden;
+    font-weight: 600;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    line-height: 0.48rem;
+    margin: 0;
+}
+#detail .collicon {
+	    float: right;
+    width: 0.59rem;
+    position: relative;
+    text-align: center;
+    padding: 6px 10px 0 10px;
+    height: 0.48rem;
+    padding-top: 0.2rem;
+}
+#detail .icon{
+	width: 0.3rem;
+	height: 0.3rem;
+	transform: scale(0.5);
+	display: inline-block;
+	background: url(./img/icon.png) no-repeat ;
+}
+#detail .positionName{
+	    height:0.48rem;
+    line-height: 0.48rem;
+    padding: 0 0.15rem;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+}
+#detail .text1{
+	display: block;
+    color: #888;
+    font-size: 0.11rem;
+    position: absolute;
+    top: 6px;
+}
+#detail .notcoll{
+	    position: absolute;
+    top: 2px;
+    left: 15px;
+    z-index: 2;
+    background-position: -3.42rem -0.87rem;
+}
+#detail .detail{
+	    border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px;
+}
+#detail .items .item{
+	float: left;
+    color: #333;
+    font-size: 0.14rem;
+    position: relative;
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#detail .items .text{
+	    display: inline-block;
+    vertical-align: middle;
+    top: -1px;
+    font-size: 0.14rem;
+    line-height: 0.37rem;
+    position: absolute;
+    top: 0;
+    right:0.35rem;
+    font-weight: 400;
+    width: 55px;
+}
+#detail .items .icon{
+	width: 0.3rem;
+    height: 0.3rem;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    display: inline-block;
+    margin-top: 5px;
+}
+#detail .salary .icon{
+	background-position:-1.27rem -0.96rem ;
+}
+#detail .workaddress .icon{
+	background-position:-1.5rem -0.96rem ;
+}
+#detail .jobnature .icon{
+	background-position: -1.83rem -0.96rem;
+}
+#detail .workyear .icon{
+	background-position:-2.21rem -0.96rem ;
+}
+#detail .education .icon{
+	background-position: -2.56rem -0.99rem;
+}
+#detail .temptation{
+	color: #888;
+    word-break: break-all;
+    font-size: 0.13rem;
+    padding-left: 0.07rem;
+}
+#detail .company{
+	border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 0.15rem;
+}
+#detail .logo{
+	width:0.6rem;
+    height: 0.6rem;
+    float: left;
+}
+#detail .desc{
+    margin-left: 70px;
+    min-height: 10px;
+}
+#detail .company .dleft {
+    float: left;
+    min-height: 10px;
+    height: 0.6rem;
+    min-width: 10px;
+    max-width: 80%;
+}
+#detail .company .dright {
+   float: right;
+    display: inline-block;
+    width: 0.52rem;
+    height: 0.58rem;
+    background: url(/static/media/icon.810f73f1.png) no-repeat;
+    background-position: -4.4rem -0.08rem;
+    margin-right: -13px;
+    margin-top: -4px;
+    transform: scale(0.5);
+}
+#detail .company .dleft .title {
+      color: #00b38a;
+    font-size: .18rem;
+    overflow: hidden;
+    float: none;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#detail .company .dleft .info {
+    color: #888;
+    font-size: 0.12rem;
+}
+#detail .header,#detail .mspj{
+	height: 0.36rem;
+    line-height: 0.36rem;
+    padding-left: 0.15rem;
+    color: #00b38a;
+    font-size: 0.14rem;
+    background-color: #d2f9f0;
+}
+#detail .positiondetail,#detail .positioneed{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.15rem;
+	padding-bottom: 0;
+	padding-top: 0;
+	color: #555;
+	word-break: break-all;
+	font-size: 0.12rem;
+	line-height: 0.22rem;
+	}
+#detail .positiondetail p,#detail .positioneed p{
+	color: #555;
+	word-break: break-all;
+	font-size: 0.12rem;
+	line-height: 0.16rem;
+}
+#detail .positiondetail h4,#detail .positioneed h4{
+	color: #555;
+	word-break: break-all;
+	font-size: 0.12rem;
+	line-height: 0.22rem;
+}
+#detail .list{
+    padding-bottom: 0.14rem;
+    list-style: none;
+    border-bottom: none;
+    word-break: break-all;
+    color: #555;
+    font-size: 1.2rem;
+    padding: 0;
+    line-height: 22px;
+}

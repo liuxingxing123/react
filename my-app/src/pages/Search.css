@@ -1,0 +1,94 @@
+#searchPage{
+	    width: 3.75rem;
+    height: 5.73rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+    position: fixed;
+    z-index: 3;
+    top:0.46rem
+}
+#searchPage .content{
+	margin-bottom:0.4rem;
+}
+#searchPage .content .linputer{
+	    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 0.45rem;
+}
+#searchPage .content .lbutton {
+    float: left;
+    height:  0.45rem;
+    line-height:  0.45rem;
+    font-size: 0.15rem;
+    text-align: center;
+    
+    width: 0.88rem;
+    border-right: 1px solid #e8e8e8;}
+
+#searchPage .content .lbutton span {
+    display: inline-block;
+}
+#searchPage .content .lbutton .cityicon {
+      width: 0.2rem;
+    height: 0.2rem;
+    position: absolute;
+    top: 0.11rem;
+    left: 0.56rem;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    padding-top: 13px;
+    background: url(./img/icon2.png) no-repeat 1px 6px;
+}
+#searchPage .content .rinput {
+    height:0.45rem;
+    margin-left: 0.89rem;
+    position: relative;
+}
+#searchPage .content .rinput .inputer {
+    display: block;
+    border: none;
+    padding: 0.1rem 0;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    color: #333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 0.15rem;
+    float: left;
+     margin-top: 10px;
+    outline: none;
+}
+#searchPage .content .rinput .search {
+    display: inline-block;
+    width: 20%;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    float: right;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    position: relative;}
+    
+#searchPage  .content .rinput .search i {
+    display: block;
+    margin: .09rem auto 0 auto;
+    width: 0.39rem;
+    height: 0.35rem;
+    font-size: 23px;
+    padding-right: 4px;
+    color: #cdd8d5;
+    line-height: 0.28rem;
+    font-weight: 800;
+    transform: scale(0.8);
+    }
+    
+#searchPage .backBtn{
+	width: 0.46rem;
+	height: 0.46rem;
+	position: absolute;
+	z-index: 4;
+	border: 1px solid red;
+	left: 0;
+	top:0;
+}

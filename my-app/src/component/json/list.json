@@ -1,0 +1,229 @@
+{
+    "result": [
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3448504,
+            "positionName": "数据挖掘工程师",
+            "city": "深圳",
+            "createTime": "今天 14:15",
+            "salary": "10k-18k",
+            "companyId": 36560,
+            "companyLogo": "image1/M00/27/F0/CgYXBlVdNY2AKQL2AAB4X7qYCs8106.jpg",
+            "companyName": "合时代",
+            "companyFullName": "深圳合时代金融服务有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3448412,
+            "positionName": "数据分析师",
+            "city": "深圳",
+            "createTime": "今天 14:15",
+            "salary": "10k-15k",
+            "companyId": 36560,
+            "companyLogo": "image1/M00/27/F0/CgYXBlVdNY2AKQL2AAB4X7qYCs8106.jpg",
+            "companyName": "合时代",
+            "companyFullName": "深圳合时代金融服务有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3464210,
+            "positionName": "会计",
+            "city": "深圳",
+            "createTime": "今天 14:15",
+            "salary": "4k-8k",
+            "companyId": 209568,
+            "companyLogo": "i/image/M00/2C/55/CgpFT1kxLMSAFU_7AAD-CKOA2Q8124.jpg",
+            "companyName": "和谐号",
+            "companyFullName": "深圳市和谐号教育科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3454880,
+            "positionName": "招商销售---南昌",
+            "city": "南昌",
+            "createTime": "今天 14:15",
+            "salary": "4k-8k",
+            "companyId": 5330,
+            "companyLogo": "image1/M00/2F/E1/CgYXBlWD24WAWaLGAAFxR-iQw48140.jpg",
+            "companyName": "齐家网",
+            "companyFullName": "上海齐家网信息科技股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3447232,
+            "positionName": "客户端开发工程师",
+            "city": "杭州",
+            "createTime": "今天 14:14",
+            "salary": "20k-25k",
+            "companyId": 10593,
+            "companyLogo": "i/image/M00/7C/B9/CgqKkVhGP0aAVwleAABWAUxtrbQ940.jpg",
+            "companyName": "亿方云科技",
+            "companyFullName": "杭州亿方云网络科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3447724,
+            "positionName": "开放平台研发经理",
+            "city": "杭州",
+            "createTime": "今天 14:14",
+            "salary": "20k-40k",
+            "companyId": 10593,
+            "companyLogo": "i/image/M00/7C/B9/CgqKkVhGP0aAVwleAABWAUxtrbQ940.jpg",
+            "companyName": "亿方云科技",
+            "companyFullName": "杭州亿方云网络科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3446629,
+            "positionName": "运营总监",
+            "city": "上海",
+            "createTime": "今天 14:14",
+            "salary": "20k-30k",
+            "companyId": 229115,
+            "companyLogo": "i/image/M00/57/42/CgpEMll_3xCAVlovAABATMMQAnM806.png",
+            "companyName": "洪涛教育",
+            "companyFullName": "深圳市前海洪涛教育科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3446802,
+            "positionName": ".net开发工程师",
+            "city": "上海",
+            "createTime": "今天 14:14",
+            "salary": "8k-15k",
+            "companyId": 229115,
+            "companyLogo": "i/image/M00/57/42/CgpEMll_3xCAVlovAABATMMQAnM806.png",
+            "companyName": "洪涛教育",
+            "companyFullName": "深圳市前海洪涛教育科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3446513,
+            "positionName": "winforms(c#)开发",
+            "city": "上海",
+            "createTime": "今天 14:13",
+            "salary": "6k-8k",
+            "companyId": 40242,
+            "companyLogo": "images/logo_default.png",
+            "companyName": "诚明融鑫",
+            "companyFullName": "上海诚明融鑫科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3448202,
+            "positionName": "产品经理",
+            "city": "杭州",
+            "createTime": "今天 14:13",
+            "salary": "15k-20k",
+            "companyId": 50106,
+            "companyLogo": "image1/M00/00/83/Cgo8PFTUXd-AcMDBAAAOehrxB8g791.png",
+            "companyName": "杭州搜影科技有限公司",
+            "companyFullName": "杭州搜影科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3455234,
+            "positionName": "渠道经理",
+            "city": "深圳",
+            "createTime": "今天 14:12",
+            "salary": "10k-15k",
+            "companyId": 1616,
+            "companyLogo": "i/image/M00/C2/A8/CgqKkVjaP_2ADwC3AAAIxuBPb3w852.png",
+            "companyName": "云来网络",
+            "companyFullName": "深圳市云来网络科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3455421,
+            "positionName": "产品经理",
+            "city": "深圳",
+            "createTime": "今天 14:12",
+            "salary": "14k-18k",
+            "companyId": 1616,
+            "companyLogo": "i/image/M00/C2/A8/CgqKkVjaP_2ADwC3AAAIxuBPb3w852.png",
+            "companyName": "云来网络",
+            "companyFullName": "深圳市云来网络科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3455937,
+            "positionName": "产品经理（漕河泾）",
+            "city": "上海",
+            "createTime": "今天 14:11",
+            "salary": "16k-32k",
+            "companyId": 1738,
+            "companyLogo": "i/image/M00/61/D3/CgqKkVf8uQeAOqJ2AAArfl5skXY149.png",
+            "companyName": "有鱼金融科技",
+            "companyFullName": "上海彩亿信息技术有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3455948,
+            "positionName": "产品经理（徐汇）",
+            "city": "上海",
+            "createTime": "今天 14:10",
+            "salary": "15k-30k",
+            "companyId": 1738,
+            "companyLogo": "i/image/M00/61/D3/CgqKkVf8uQeAOqJ2AAArfl5skXY149.png",
+            "companyName": "有鱼金融科技",
+            "companyFullName": "上海彩亿信息技术有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3463982,
+            "positionName": "java开发工程师",
+            "city": "广州",
+            "createTime": "今天 14:08",
+            "salary": "7k-10k",
+            "companyId": 86884,
+            "companyLogo": "image1/M00/40/5B/Cgo8PFXDNAqAKIScAAO_CM_G0TQ072.png?cc=0.2874483233441758",
+            "companyName": "创必承",
+            "companyFullName": "广州创必承信息科技有限公司"
+        }
+    ]
+}

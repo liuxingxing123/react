@@ -1,0 +1,67 @@
+	.list-item{
+	padding: 0.14rem;
+    border-bottom: 1px solid #e8e8e8;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+		}
+	li{
+    display: list-item;
+    list-style: none;
+    text-align: -webkit-match-parent;
+    }
+   .list-item .item-logo {
+  	display: inline-block;
+    float: left;
+    width:0.6rem;
+    margin-top: 0.12rem;
+    height:0.6rem;
+    }
+    .list-item img{
+   	border: none;
+    outline: none;
+    padding: 0;
+    }
+	.list-item .item-desc {
+  	 margin-left: 0.7rem;
+    height: 0.62rem;
+    color: #333;
+    }
+    .list-item .item-title{font-size:0.17rem;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+    .list-item h2{    display: block;
+    font-size: 0.14rem;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;}
+    .list-item .item-info{
+    	    margin-bottom: 6px;
+		    width: 100%;
+		    margin-top: 3px;
+		    height: 0.16rem;
+		    line-height: 0.16rem;
+		    }
+    .list-item .item-pos{font-size: 0.14rem;
+    float: left;
+    width: 60%;
+    font-weight: 400;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+    .list-item .item-salary{
+    	font-size: 0.14rem;
+	    color: #00b38a;
+	    float: right
+    }
+    .list-item .item-time{
+    	    font-size: 0.14rem;
+		    color: #888;
+		    margin-top: 4px;
+    }

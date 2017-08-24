@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,minimum-scale=1.0 shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="Shortcut Icon" href="logologo.ico" type="image/x-icon">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logologo.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+   
+		<title>拉勾网-最专业的互联网招聘平台_找工作_招聘_人才网_求职</title>
+    <script type="text/javascript" src="js/fontSize.js"></script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root" style="height: 6.19rem"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+  <!--<script type="text/javascript" src="js/zepto.min.js">
+  </script>
+   <script type="text/javascript" src="js/iscroll-probe.js">
+  </script>
+  <script>
+ $(function(){
+		var myScroll = new IScroll("#section",{
+		scrollbars:true,
+		startY:-40,
+		scrollY:true,
+		probeType:2,
+		tap:true
+	});
+
+
+	var downTag = $("#downTag"),upTag = $("#upTag"),flag='',maxScrollY = 0;
+	maxScrollY = myScroll.maxScrollY;
+	myScroll.on("scroll",function(){
+		//下拉的情况
+		if(flag =='' && this.y>5 && this.directionY==-1){
+			setTimeout(function(){
+				downTag.html('释放刷新');
+				flag = 'down';
+			},400);
+		}
+		//下拉怼回去的情况  不刷新
+		if(flag == 'down' && this.directionY == 1 && this.y<=5){
+			setTimeout(function(){
+				downTag.html('下拉加载');
+				flag='';
+			},800);
+		}
+		//向上拉
+		if(flag == '' && this.directionY == 1 && this.y < maxScrollY - 45){
+			//setTimeout(function(){
+				upTag.html('释放加载更多...');
+				flag = 'up';
+				this.maxScrollY = maxScrollY - 40;
+		//	},400);
+		}
+		//上拉怼回去  不刷新
+		console.log(this.directionY,this.y)
+		if(flag == 'up' && this.directionY == -1 && this.y>maxScrollY-40){
+			
+			setTimeout(function(){
+				upTag.html('上拉加载更多');
+				flag = '';
+			},1000);
+		}
+	});
+	myScroll.on('scrollEnd',function(){
+		//下拉刷新的情况
+		var _this = this;
+		if(flag == 'down'){
+			var img = $("<img src='img/loading.gif' />");
+			downTag.empty().append(img);
+			setTimeout(function(){
+				downTag.html("没有更多的内容了...");
+				flag = '';
+				setTimeout(function(){
+					downTag.html('下拉刷新');
+					_this.scrollTo(0,-40,800);
+				},1000);
+			},2000);
+		}
+
+		if(flag == 'up'){
+			var img = $("<img src='img/loading.gif' />");
+			upTag.empty().append(img);
+			setTimeout(function(){
+				getList(_this);
+			},1000);
+		}
+	});
+
+	function getList(iscroll){
+		var html = `<p>我是后加载出来的数据</p>
+				   <p>我是后加载出来的数据</p>
+				   <p>我是后加载出来的数据</p>
+				   <p>我是后加载出来的数据</p>
+				   <p>我是后加载出来的数据</p>
+				   <p>我是后加载出来的数据</p>
+				   <p>我是后加载出来的数据</p>`;
+			$("div.list").append(html);
+			flag = '';
+			upTag.html('上拉加载更多');
+			iscroll.refresh();//重新计算最大滚动高度
+			maxScrollY = iscroll.maxScrollY;
+	}
+});
+
+
+  	  </script>-->
+</html>

@@ -1,0 +1,23 @@
+#header{
+	width: 100%;
+	line-height: 0.46rem;
+	height: 0.46rem;
+	text-align: center;
+	background: #00b38a;
+	position: fixed;
+	top: 0;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	z-index: 1;
+}
+#header .backBtn{
+	width: 0.46rem;
+	height: 0.46rem;
+	position: absolute;
+	z-index: 4;
+	left: 0;
+	transform: scale(0.5);
+	top:0;
+	background: url(./img/icon2.png) no-repeat 0.1rem -0.36rem;
+}
